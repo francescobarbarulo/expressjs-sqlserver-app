@@ -12,8 +12,8 @@ You must have a SQL server up and running.
 
 1. Download the repo and install all dependencies:
     ```bash
-    git clone https://github.com/francescobarbarulo/express-sqlserver-demo
-    cd express-sqlserver-demo
+    git clone https://github.com/francescobarbarulo/expressjs-sqlserver-app.git
+    cd expressjs-sqlserver-app
     npm install
     ```
 
