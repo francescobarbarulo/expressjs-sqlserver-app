@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaaS Course for Beginners</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-light py-2">
+        <div class="container-sm mx-auto">
+            <h3>PaaS Course for Beginners</h3>
+        </div>
+    </header>
+    <div class="container-sm mx-auto">
+        <h1 class="my-5"><strong>Posts</strong></h1>
+        <ul class="list-unstyled mt-5">
+            <% posts.forEach(function(post) { %>
+                <li>
+                    <strong><%= post.title %></strong>
+                    <p><%= post.content %></p>
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+    <footer class="fixed-bottom my-3">
+        <div class="container-sm mx-auto">
+            <img width="100px" src="images/cg.png" alt="Computer Gross SPA">
+        </div>
+    </footer>
+</body>
+</html>
